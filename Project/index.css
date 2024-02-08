@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.bg-img{
+    display: flex;
+    background-image: url(./sergei-a--heLWtuAN3c-unsplash.jpg);
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 99%;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-size: cover;
+    position: fixed;
+    align-items: center;
+}  
+
+.add-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
+    margin-bottom: 4%;
+
+    border-radius: 30px;
+    padding: 0.5rem 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.image{
+    width: 1333px;
+    height: 48vh;
+    border-radius: 20px;
+    margin: 8px;
+}
+.title{
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 2%;
+    margin-left: 31rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.info{
+    margin-top: 40rem;
+    margin-bottom: 14rem;
+    margin-right: 14rem;
+    margin-left: 23rem;
+    display: flex;
+    background-color: whitesmoke  ;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 50vw;
+    height: 55vh;
+    justify-content: center;
+    position: fixed;
+  
+    /* shadow */
+    box-shadow: -2px 2px 12px 2px rgb(24, 24, 23);
+}
+.content{
+    margin-top: 30rem;
+}
+.head-1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.head-2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.head-3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.head-4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+i.fa.fa-trash {
+    box-shadow: 8px 2px 11px white;
+}
+
+span.delete {
+    color: red;
+    position: relative;
+    top: -420px;
+    left: 585px;
+    font-size: x-large;
+    display: block;
+    padding: 45px;
+}
+
+.overlay{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    padding: 2rem 2rem;
+    margin-top: 25rem;
+    height: 55vh;
+    width: 25%;
+    border-radius: 30px;
+    background-color: white ;
+    box-shadow: 4px 4px 15px 5px black;
+}
+
+.u-info > input {
+    margin-top: 20px;
+    padding: 0.4rem;
+    border: 2px solid #942eed;
+    outline: none;
+    border-radius: 10px;
+    background-color:#C481FF;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    width: 100%;
+    height: 8vh;
+  }
+.u-info>select{
+    background-color:#C481FF;
+    border: 2px solid #942eed;
+    border-radius: 3rem;
+    width: 100%;
+    height: 6vh;
+  }
+
+  .signupbtn {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signupbtn > button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin: 0 3rem 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .signupbtn > button:active {
+    background-color: lightblue;
+    color: black;
+}
+
+.signupbtn {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signupbtn > button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin: 0 3rem 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .signupbtn > button:active {
+    background-color: lightblue;
+    color: black;
+}
+.d-none{
+    display: none;
+}
+.unorder{
+    width: 50vw;
+}

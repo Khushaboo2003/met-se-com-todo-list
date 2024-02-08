@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <main class="bg-img">
+        
+        <section>
+            <button class="add-btn" id="tobtn">Add todo</button>
+            <p>TODO</p>
+        </section>
+        <section class="title">
+            <h1>TODO</h1>
+        </section>
+        <section class="info">
+            <div class="content">
+                
+                    <div class="head-1">
+                    <h1>Complete HTML Learning</h1>
+                    <p>Learning all HTML tags, learn new article tag.</p>
+                           
+                </div>
+                
+                <div class="head-2">
+                    <h1>Learn map() method</h1>
+                    <p>Learn how to implement map method in javascript.</p>
+                </div>
+                
+                <div class="head-3">
+                    <h1>Take Notes</h1>
+                    <p>Take notes regarding css fundamentals</p>
+                </div>
+                
+                <div class="head-4">
+                    <h1>Water Plants</h1>
+                    <p>Water all plants in garden</p>     
+                </div>
+            </div>
+            <section>
+                <span class="delete"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                <span class="delete"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                <span class="delete"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                <span class="delete"><i class="fa fa-trash" aria-hidden="true"></i></span>
+            </section>
+            
+
+        </section>
+
+        <section class="overlay d-none " id="popup">
+            <div class="signup">
+                
+                <div class="u-info">
+                    <label class="xyz" for="">Todo name</label>
+                    <input id="name" type="text" placeholder="">
+                </div>
+                <div class="u-info">
+                    <label for="">Description</label>
+                    <input id="description" type="text" placeholder="">
+                </div>
+                <div class="u-info">
+                    <label for="">Priority</label>
+                    <select id="priority" width="30">
+                        <!--option>Select</option-->
+                        <option>High</option>
+                        <option>Medium</option>
+                        <option>Low</option>
+                    </select>
+                </div>
+    
+                <div class="signupbtn">
+                    <button id="savebtn" type="button"><i class="fa fa-user-plus" aria-hidden="true"></i>
+                        Save</button>
+                </div>
+    
+                
+            </div>
+            </section>
+    </main>
+    <script src="./index.js"></script>    
+</body>
+</html>
